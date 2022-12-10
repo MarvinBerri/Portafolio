@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #eee;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+#intro {
+	background-color: #51CA09;
+	background-image:url( "../img/patron 3.png");
+	
+}
+#contact .cuadrado{
+	background-color:#51CA09;
+	background-image:url( " ../img/patron 3.png");
+	color: #FE707E;
+	font-size: 16px;
+	font-weight:bolder;
+}
+#form{
+	padding: 40px;
+}
+#services{
+	background-image:url("../img/patron 3.png");
+	background-color: #FE707E;
+	text-align: center;
+	align-items: center;
+	color:antiquewhite;
+}
+#services h2{
+	padding-top: 30px;
+}
+#about p{
+	font-size: 20px;
+}
+#about{
+	color:#FE707E;
+	align-content: center;
+}
+
+footer{
+	background-image:url("../img/patron 3.png");
+	background-color: #FE707E;
+	font-size: 23px;
+	color: antiquewhite;
+	text-align: center;
+	padding: 60px;
+}
+footer .la-instagram{
+	font-size: 64px;
+	color: antiquewhite;
+}
+footer .la-facebook{
+	font-size: 64px;
+	color: antiquewhite;
+}
+footer .la-whatsapp{
+	font-size: 64px;
+	color: antiquewhite;
+}
